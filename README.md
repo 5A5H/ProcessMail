@@ -3,6 +3,10 @@ A shell script that sends a mail after a process terminated.
 
 ## Installation
   - put the ```ProcessMail.sh``` anywhere on you system, e.g. ```~/user/ProcessMail.sh```
+  - make the file ```ProcessMail.sh``` executable:
+  ```
+  chmod 777 ProcessMail.sh
+  ```
   - modify lines 1,2 of ```ProcessMail.sh```, e.g.
   ```
   MAILTO="user@gmail.com"
